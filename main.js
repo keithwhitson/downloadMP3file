@@ -34,7 +34,7 @@ function gotFileEntry(fileEntry) {
 		alert("upload error code" + error.code);
 	});
 
-var statusDom = getElementById("statusDom");
+var statusDom = document.getElementById("statusDom");
 
 	fileTransfer.onprogress = function(progressEvent) {
 		if (progressEvent.lengthComputable) {
