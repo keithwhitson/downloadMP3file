@@ -29,13 +29,13 @@
     		uri,
     		sPath + "thetest.mp3",
     		function(entry){
-    			console.log("download complete: " + entry.fullPath);
+    			alert("download complete: " + entry.fullPath);
     		},
     		
     		function(error){
-    			console.log("download error source" + error.source);
-    			console.log("download error target" + error.target);
-    			console.log("upload error code" + error.code);
+    			alert("download error source" + error.source);
+    			alert("download error target" + error.target);
+    			alert("upload error code" + error.code);
     		}
     		
     	);
