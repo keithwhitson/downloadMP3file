@@ -23,7 +23,8 @@
     	var fileTransfer = new FileTransfer();
     	fileEntry.remove();
     	
-    	var uri = encodeURI("http://freedownloads.last.fm/download/501315200/5D.mp3");
+    	var uri = encodeURI("http://www.oneplace.com/ministries/thru-the-bible-with-j-vernon-mcgee/listen/acts-214-47-287635/direct-download/thru-the-bible-with-j-_2012-07-10_acts-214-47_20120620195205.mp3
+");
     	
     	fileTransfer.download(
     		uri,
