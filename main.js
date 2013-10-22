@@ -24,7 +24,7 @@ function gotFileEntry(fileEntry) {
 	var fileTransfer = new FileTransfer();
 	fileEntry.remove();
 
-	var uri = encodeURI("http://keithwhitson.biz/testCordova/12.mp3");
+	var uri = encodeURI("http://keithwhitson.biz/testCordova/Acts1.26-2.13.mp3");
 
 	fileTransfer.download(uri, sPath + "thetest.mp3", function(entry) {
 		alert("download complete: " + entry.fullPath);
